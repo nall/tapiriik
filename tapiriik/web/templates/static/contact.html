@@ -8,7 +8,7 @@
 </div>
 <div class="contactBlock">
 	<h1>For help with your account</h1>
-	<a href="mailto:contact@tapiriik.com{% if user %}?body=My tapiriik user ID is {{ user|dict_get:'_id' }}{% endif %}" target="_blank" class="large">contact@tapiriik.com</a>
+	<a href="mailto:admin@sfrunners.club{% if user %}?body=My tapiriik user ID is {{ user|dict_get:'_id' }}{% endif %}" target="_blank" class="large">admin@sfrunners.club</a>
 	<p>If you're dissatisfied with the service and want a refund, make sure to mention that in the subject line so I can respond quickly.</p>
     <p>Unfortunately, I'm only one person and I can't reply to every message received. If you're trying to track down an activity that hasn't synchronized, <b>please check <a href="{% url 'activities_dashboard' %}">the activity dashboard</a></b>. It'll do its best to tell you what went wrong.</p>
 </div>

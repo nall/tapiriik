@@ -110,7 +110,7 @@ class GarminConnectService(ServiceBase):
     }
 
     _obligatory_headers = {
-        "Referer": "https://sync.tapiriik.com"
+        "Referer": "https://tapiriik.sfrunners.club"
     }
 
     def __init__(self):

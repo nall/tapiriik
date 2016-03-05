@@ -84,8 +84,8 @@ def _unpackUserException(raw):
 
 class Sync:
 
-    SyncInterval = timedelta(hours=1)
-    SyncIntervalJitter = timedelta(minutes=5)
+    SyncInterval = timedelta(minutes=5)
+    SyncIntervalJitter = timedelta(seconds=30)
     MinimumSyncInterval = timedelta(seconds=30)
     MaximumIntervalBeforeExhaustiveSync = timedelta(days=14)  # Based on the general page size of 50 activites, this would be >3/day...
 
